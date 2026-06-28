@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const BOT_TOKEN = "8798922176:AAFVcmS0Dz7O-GAAZKaAsS3B2f-pqYSViyM";
-const DAILY_LIMIT = 10;
+const DAILY_LIMIT = 50;
 const COUNTERS_FILE = path.join(__dirname, "counters.json");
 
 function getCounters() {
