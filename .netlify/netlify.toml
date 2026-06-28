@@ -1,0 +1,30 @@
+functionsDirectory = "/Users/Ivan/Desktop/tiktok-bot-local/netlify/functions"
+functionsDirectoryOrigin = "config-v1"
+plugins = []
+headers = []
+redirects = []
+
+[build]
+publish = "/Users/Ivan/Desktop/tiktok-bot-local"
+publishOrigin = "default"
+base = "/Users/Ivan/Desktop/tiktok-bot-local"
+functions = "/Users/Ivan/Desktop/tiktok-bot-local/netlify/functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[functions]
+
+[functions."*"]
+node_bundler = "esbuild"
